@@ -78,7 +78,7 @@ public class MotionCaptureRecorder : MonoBehaviour
 
     void Update()
     {
-        bool buttonPressedThisFrame = menuAction.ReadValue<float>() > 0.5f;
+        bool buttonPressedThisFrame = controller.selectAction.action.ReadValue<float>() > 0.5f;
         bool keyPressedThisFrame = Keyboard.current.rKey.wasPressedThisFrame;
 
         if (buttonPressedThisFrame && !buttonPressedLastFrame || keyPressedThisFrame)

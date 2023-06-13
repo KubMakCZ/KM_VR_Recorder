@@ -133,11 +133,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400092, guid: 7d3425a6c7317e048be11c2ff72db69e, type: 3}
   m_PrefabInstance: {fileID: 958782988}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &122035286 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3979771264546198043, guid: 0a297e26af348cb4ab776627b7d18927, type: 3}
-  m_PrefabInstance: {fileID: 3979771264581905337}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &142997677
 GameObject:
   m_ObjectHideFlags: 0
@@ -3244,7 +3239,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1567729376
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3793,8 +3788,8 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1237903482}
-  m_Father: {fileID: 122035286}
-  m_RootOrder: 3
+  m_Father: {fileID: 360116680}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
